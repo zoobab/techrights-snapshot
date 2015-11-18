@@ -1,0 +1,87 @@
+/* ::::: http://techrights.org/wp-content/themes/ocadia/style.css ::::: */
+
+body { margin: 0px; padding: 0px; background: rgb(230, 238, 238) none repeat scroll 0% 0%; color: rgb(51, 51, 51); font-size: 78%; font-family: "Lucida Sans Unicode",Tahoma,Geneva,sans-serif; text-align: center; }
+p { font-size: 1em; line-height: 1.5em; margin: 1.2em 0px; }
+p.dropcap-first::first-letter { color: rgb(112, 128, 144); float: left; font-size: 80px; line-height: 60px; padding-top: 4px; padding-right: 5px; font-family: Times,serif,Georgia; }
+ol, ul { font-size: 1em; line-height: 1.5em; margin: 1.2em 0px 1.2em 2em; padding: 0px; }
+h1, h2, h3, h4, h5, h6 { margin: 1.2em 0px; font-family: Georgia,serif; color: rgb(83, 75, 72); }
+h1, h2 { font-size: 1.4em; }
+h3 { font-size: 1.3em; }
+a:link { color: rgb(89, 112, 140); }
+a:visited { color: rgb(92, 108, 125); }
+abbr { color: rgb(89, 112, 140); }
+a:hover, a:active { color: rgb(140, 160, 180); text-decoration: none; }
+a[href^="http:"] { background: transparent url('remote.gif') no-repeat scroll right center; padding-right: 15px; }
+a[href^="http:"]:hover { background: transparent url('remote_a.gif') no-repeat scroll right center; }
+a[href^="http://techrights.org"] { background: transparent none repeat scroll 0% 0%; padding-right: 0px; }
+a[href^="http://techrights.org"]:hover { background: transparent none repeat scroll 0% 0%; }
+blockquote { margin: 0px 20px; padding: 0.05em 20px; border-top: 1px solid rgb(204, 204, 204); border-bottom: 1px solid rgb(204, 204, 204); background: transparent url('commentalt.gif') repeat-y scroll 0% 0%; font-size: 0.9em; }
+blockquote::after { font-weight: bold; font-size: 0.7em; content: " " attr(cite) " "; }
+blockquote.evidence { margin: 0px 10px; padding: 0.05em 20px; border-top: 2px solid rgb(68, 68, 68); border-bottom: 2px solid rgb(68, 68, 68); font-size: 1.1em; background: rgb(238, 238, 238) url('quote-alpha.png') no-repeat scroll 0% 0%; }
+code { color: rgb(102, 102, 102); }
+input, textarea, select { background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); font-size: 1em; font-family: "Lucida Sans Unicode",Tahoma,Geneva,sans-serif; }
+form, img { border: 0px none; margin: 0px; padding: 0px; }
+#wrapper { margin: -18px auto auto; width: 760px; background: rgb(255, 255, 255) url('wrapper.gif') repeat-y scroll 0% 0%; text-align: left; }
+#headmenu { height: 52px; padding-top: 8px; background: transparent url('head.png') repeat-x scroll 0% 0%; font-size: 1em; color: rgb(51, 51, 51); }
+#header { width: 760px; height: 132px; background: transparent url('header.jpg') no-repeat scroll 0% 0%; }
+#header a { color: rgb(255, 255, 255); list-style-image: none; display: block; padding: 5px 0px; }
+#content { float: left; margin-top: -12px; padding: 0px 10px 0px 40px; min-height: 268px; background: transparent url('content.gif') no-repeat scroll 0% 0%; overflow: visible; width: 470px; }
+html > body #content { width: 470px; }
+#features { float: left; width: 140px; margin-right: -140px; font-size: 0.9em; }
+#sidebar { float: left; width: 240px; background: transparent url('sidebar.gif') no-repeat scroll right top; font-size: 0.9em; }
+#sidebar ul { margin: 0px; padding: 0px; list-style-type: none; background: transparent url('sidebar2.gif') repeat-y scroll 0% 0%; }
+#sidebar ul li { margin: 0px; padding: 0px 0px 1.5em; background: transparent url('sidebar-bottom.gif') no-repeat scroll left bottom; overflow: visible; }
+#sidebar h2 { margin: 0px; padding: 1.2em 40px 0px 20px; font-size: 1.1em; background: transparent url('sidebar-top.gif') no-repeat scroll 0% 0%; }
+#sidebar p, #sidebar ul ul, #sidebar ul ol { margin: 1em 0px 0px; padding: 0px 40px 0px 20px; }
+#sidebar ul ul { background: transparent none repeat scroll 0% 0%; }
+#sidebar ul ul ul { margin: 0px; padding: 0px 0px 0px 0.8em; background: transparent none repeat scroll 0% 0%; }
+#sidebar ul ul li { padding: 0px 0px 0px 1.5em; background: transparent url('bullet.gif') no-repeat scroll 0px 0.2em; }
+#footer { clear: both; margin: 0px 20px; padding: 25px 4px 0px; background: transparent url('footer.gif') no-repeat scroll 0% 0%; }
+#footer p { margin: 0px; padding: 0.5em 20px; background-color: rgb(204, 204, 204); font-size: 0.9em; }
+#footer a:hover, #footer a:active { color: rgb(92, 108, 125); text-decoration: none; }
+.post { padding: 1.2em 0px 0px; }
+.storydate { float: left; margin: 0px 0.5em 0px 0px; padding: 0px 0.5em 0px 0px; border-right: 1px solid rgb(204, 204, 204); font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,Geneva,sans-serif; font-weight: normal; color: rgb(153, 153, 153); }
+.storytitle { float: left; margin: 0px; }
+.pullQuote { margin: 12px 8px 12px 0px; display: block; width: 140px; float: left; font-size: 1.8em; font-weight: bold; line-height: 1.2em; color: rgb(30, 71, 126); border-top: 1px solid rgb(204, 204, 204); border-bottom: 1px solid rgb(204, 204, 204); background: transparent url('quote-alpha.png') no-repeat scroll 0% 0%; }
+.meta { margin: 0px; padding: 0.5em 0px 0px 3em; }
+.feedback { padding: 0px 0px 0px 3em; }
+.meta, .feedback { clear: both; font-size: 0.9em; color: rgb(153, 153, 153); background: transparent url('deco.gif') no-repeat scroll left bottom; }
+.permalink { margin: 0px 1.5em 0px 0px; padding: 0px 0px 0px 1.2em; background: transparent url('perma.gif') no-repeat scroll left center; }
+.storytitle a, .meta a, .feedback a, .commentauthor a, .commentmeta a, #comments a { text-decoration: none; }
+#recentlist { margin: 2.2em 2em; padding: 0px; }
+#recentlist li { margin: 1em 0px; padding: 0px 20px; border-top: 1px solid rgb(85, 85, 85); border-bottom: 1px solid rgb(85, 85, 85); border-left: 1px solid rgb(85, 85, 85); background: transparent url('comment.gif') repeat-y scroll 0% 0%; }
+#sidebar #search p, .widget_search div div { margin: 0px; padding: 20px 0px 0px; background: transparent url('sidebar-top.gif') no-repeat scroll 0% 0%; }
+#sidebar #s { margin-bottom: 2px; width: 175px; }
+#calendar div { padding: 0px 40px 0.2em 20px; background: transparent url('sidebar-top.gif') no-repeat scroll 0% 0%; }
+#wp-calendar { margin: 0px; border: 1px solid rgb(204, 204, 204); background: rgb(244, 244, 244) none repeat scroll 0% 0%; line-height: 1.2em; text-align: center; width: 178px; }
+html > body #wp-calendar { width: 178px; }
+#wp-calendar caption { margin: 0px; padding: 1.4em 0px 0.6em; color: rgb(83, 75, 72); font-size: 1.1em; font-family: Georgia,serif; font-weight: bold; text-align: left; }
+#wp-calendar td { margin: 2px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+#wp-calendar td a { display: block; width: 100%; }
+#wp-calendar td.pad { background: transparent none repeat scroll 0% 0%; }
+#wp-calendar td#next, #wp-calendar td#prev { padding: 0.1em 2px; background: transparent none repeat scroll 0% 0%; }
+#wp-calendar td#next a, #wp-calendar td#prev a { display: inline; }
+#wp-calendar td#next { text-align: right; }
+#wp-calendar td#prev { text-align: left; }
+/* ::::: http://techrights.org/wp-content/plugins/wp-custom-fields-search/templates/searchforms.css ::::: */
+
+/* ::::: http://techrights.org/wp-content/plugins/snazzy-archives/snazzy-archives.css ::::: */
+
+/* ::::: http://techrights.org/wp-content/plugins/sociable-zyblog-edition/sociable.css ::::: */
+
+div .sociable { margin: 16px 0px ! important; }
+span.sociable_tagline { position: relative; }
+span.sociable_tagline span { display: none; width: 14em; }
+span.sociable_tagline:hover span { position: absolute; display: block; top: -5em; background: rgb(255, 255, 238) none repeat scroll 0% 0%; border: 1px solid rgb(204, 204, 204); color: black; line-height: 1em; }
+.sociable span { display: block; }
+.sociable ul { display: inline; margin: 0px ! important; padding: 0px ! important; }
+.sociable li { background: transparent none repeat scroll 0% 0%; display: inline; list-style-type: none; margin: 0px; padding: 2px; }
+.sociable ul li::before { content: ""; }
+.sociable img { float: none; width: 16px; height: 16px; border: 0px none; margin: 0px; padding: 0px; }
+.sociable-hovers { opacity: 0.6; }
+.sociable-hovers:hover { opacity: 1; }
+.sociable a:hover img { margin: 0px; padding: 0px; }
+.sociable a[href^="http:"] { padding-right: 0px; background: transparent none repeat scroll 0% 0%; text-decoration: none transparent; }
+/* ::::: http://techrights.org/nicetitles/nicetitle.css ::::: */
+
+div.nicetitle { background-color: rgb(102, 102, 102); color: rgb(255, 255, 255); font: bold 13px "Trebuchet MS",Verdana,Arial,sans-serif; left: 0px; padding: 4px; position: absolute; top: 0px; z-index: 20; min-width: 300px; width: auto; height: auto; }
